@@ -3,3 +3,7 @@
 #
 #
 # Practice text
+
+to_be_copied
+
+to_be_deleted_and_replaced
