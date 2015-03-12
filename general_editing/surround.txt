@@ -1,0 +1,45 @@
+ # Using vim surround
+
+ Scenario 1)  Surround with double quotes: ysiw"
+  
+  
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+  Hello
+
+Scenario 2) Change surround from " to <q> :  cs"<q>
+  
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+
+Scenario 3) Remove delimiter: ds"
+
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+  "Hello Word"
+
