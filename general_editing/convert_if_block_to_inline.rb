@@ -1,5 +1,6 @@
-# Convert if block into inline
-#
+# Convert if block into inline  
+#  long form:  ddkP3Jd$
+#  mapping:  ,rif
 
 
 if condition
