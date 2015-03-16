@@ -1,0 +1,17 @@
+# Get out of delimiters while typing in insert mode:  e.i  "{}"  put cursor from } to insert mode after "
+# For that, we do  <c-o> in insert mode
+
+
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+ println!("{}");
+
