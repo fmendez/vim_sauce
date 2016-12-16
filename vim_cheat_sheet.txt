@@ -1,0 +1,20 @@
+
+
+  f{char}  -  Go to the next occurrence of the {char} character ( t{char} will place the cursor before the occurrence ). The ";" and "," are used for next and previous char
+  F{char}/T{char} - Same as athisbove but previous (bac:?kwards)
+
+  <Shift-J> -  Join the 2 selected lines toghether.
+  <C-v>(to enter visual mode) i {delimiters}  -  Selects the text within the specified delimiter.
+  <C-w> (In insert mode) - Without leaving insert mode delete one word back.
+  yt{char} - Will yank text until it finds the first occurrence of the character.
+  <C-r>{register} (In insert mode) - insert text stored in register
+  <C-k>{digraph} (In insert mode) - Insert unsual (but useful) characters specified by the digraph.
+                                    For instance {12} is ½  {13} is ⅓, {>>} is » etc. You can use :digraphs to see a list.
+
+ (:%s/\s\+$//e) - Delete all trailing spaces
+
+ gv - Reselect the last visual selection
+ <C-v> - Block-wise visual mode.
+ gU - Swap the case for the selected text. (gUit stands for swap case inside tag)
+
+ o (In visual mode) - toggle between the ends of a visual selection (when there's no special characters between them.)
